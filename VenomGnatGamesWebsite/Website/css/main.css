@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'AirLove';
+    src: url(fonts/KaramaFuture.ttf); /* Font settings */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+font-family: 'AirLove', sans-serif; /* Paragraph text editor*/
+font-size: 35px;
+color:white;
+text-align: center;
+}
+
+h1{
+    font-family: 'AirLove', sans-serif; /* Header 1 text editor*/
+    color:white;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2{
+    font-family: 'AirLove', sans-serif; /* Header 2 ext editor*/
+    color:white;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3{
+    font-family: 'AirLove', sans-serif; /* Header 2 ext editor*/
+    color:white;
+    font-weight: normal;
+    text-align: center;
+}
+
+h{
+    font-family: 'AirLove', sans-serif; /* Header 2 ext editor*/
+    color:white;
+    font-weight: normal;
+    text-align: center;
+}
+
+a {
+    font-family: 'AirLove', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 255, 0);
+}
+
+.links {
+    text-align: center;
+}
+
+.imgCenter {
+    position: center;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 300;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    border-top: 3px solid rgb(0, 255, 0);
+    border-bottom: 3px solid rgb(0, 255, 0);
+    background-color: black;
+}
+
+    .top-bar-red {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 15px;
+        border-top: 3px solid rgb(255, 0, 0);
+        border-bottom: 3px solid rgb(255, 0, 0);
+        background-color: black;
+    }
+
+.top-bar a {
+    color: rgb(0,255,0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+.top-bar a:hover {
+    color: white;
+}
+
+    
